@@ -8,6 +8,8 @@ High-resolution Stripmap SAR processing chain: Range-Doppler focusing, Depth of 
 - PGA with LUMV estimator and adaptive windowing
 - Multi-Look Registration (MLR) via cross-correlation
 - Tested on both clean and noisy (SNR) raw data
+- RCMC via range interpolation
+- Contrast-based autofocus (coarse-to-fine search on beta)
 
 **Results:** 
 <img width="700" height="525" alt="Figura_2" src="https://github.com/user-attachments/assets/fa29c561-3503-4a42-bc01-6ef048dde853" />
