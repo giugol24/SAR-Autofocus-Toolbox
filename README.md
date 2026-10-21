@@ -14,3 +14,10 @@ High-resolution Stripmap SAR processing chain: Range-Doppler focusing, Depth of 
 **Results:** 
 <img width="700" height="525" alt="Figura_2" src="https://github.com/user-attachments/assets/fa29c561-3503-4a42-bc01-6ef048dde853" />
 <img width="700" height="525" alt="Figura_3_1" src="https://github.com/user-attachments/assets/b7494b42-e62e-44d2-b3ad-8b2c127912f0" />
+
+## Part 2: SAR Image Analysis
+- Oversampling 4x via zero-padding
+- Sidelobe control with 2D Hamming
+- Multilook 3x3, ENL estimation
+- Gamma PDF vs empirical histogram (natural vs anthropogenic)
+- Frost despeckling with optimal window selection
